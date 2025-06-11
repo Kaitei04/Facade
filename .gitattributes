@@ -4,3 +4,34 @@
 *.prefab filter=lfs diff=lfs merge=lfs -text
 ProjectSettings filter=lfs diff=lfs merge=lfs -text
 Packages/manifest.json filter=lfs diff=lfs merge=lfs -text
+
+# === Unity-Specific LFS Tracking ===
+# Models & Meshes
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.dae filter=lfs diff=lfs merge=lfs -text
+
+# Textures & Images
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+
+# Audio
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.aiff filter=lfs diff=lfs merge=lfs -text
+
+# Video
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+
+# Unity-Generated Binaries
+*.assetbundle filter=lfs diff=lfs merge=lfs -text
+*.unitypackage filter=lfs diff=lfs merge=lfs -text
+*.prefab filter=lfs diff=lfs merge=lfs -text binary # If using binary serialization
+
+# Terrain/Lighting
+*.terrainlayer filter=lfs diff=lfs merge=lfs -text
+*.lighting filter=lfs diff=lfs merge=lfs -text
